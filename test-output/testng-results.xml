@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-07T16:13:35 IST" name="Default suite" finished-at="2024-06-07T16:13:52 IST" duration-ms="17782">
+  <suite started-at="2024-06-09T15:02:05 IST" name="Default suite" finished-at="2024-06-09T15:02:18 IST" duration-ms="12439">
     <groups>
     </groups>
-    <test started-at="2024-06-07T16:13:35 IST" name="Default test" finished-at="2024-06-07T16:13:52 IST" duration-ms="17782">
-      <class name="apiumlearning.agr.AppiumBasics">
-        <test-method is-config="true" signature="ConfugureAppiumServer()[pri:0, instance:apiumlearning.agr.AppiumBasics@7bd4937b]" started-at="2024-06-07T16:13:35 IST" name="ConfugureAppiumServer" finished-at="2024-06-07T16:13:41 IST" duration-ms="6388" status="PASS">
+    <test started-at="2024-06-09T15:02:05 IST" name="Default test" finished-at="2024-06-09T15:02:18 IST" duration-ms="12439">
+      <class name="apiumlearning.agr.Gestures">
+        <test-method is-config="true" signature="ConfugureAppiumServer()[pri:0, instance:apiumlearning.agr.Gestures@bae7dc0]" started-at="2024-06-09T15:02:05 IST" name="ConfugureAppiumServer" finished-at="2024-06-09T15:02:10 IST" duration-ms="5178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConfugureAppiumServer -->
-        <test-method signature="SetWifiName()[pri:0, instance:apiumlearning.agr.AppiumBasics@7bd4937b]" started-at="2024-06-07T16:13:41 IST" name="SetWifiName" finished-at="2024-06-07T16:13:52 IST" duration-ms="11378" status="PASS">
+        <test-method signature="LongPressGesture()[pri:0, instance:apiumlearning.agr.Gestures@bae7dc0]" started-at="2024-06-09T15:02:10 IST" name="LongPressGesture" finished-at="2024-06-09T15:02:18 IST" duration-ms="7245" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SetWifiName -->
-        <test-method is-config="true" signature="StopServer()[pri:0, instance:apiumlearning.agr.AppiumBasics@7bd4937b]" started-at="2024-06-07T16:13:52 IST" name="StopServer" finished-at="2024-06-07T16:13:52 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- LongPressGesture -->
+        <test-method is-config="true" signature="StopServer()[pri:0, instance:apiumlearning.agr.Gestures@bae7dc0]" started-at="2024-06-09T15:02:18 IST" name="StopServer" finished-at="2024-06-09T15:02:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StopServer -->
-      </class> <!-- apiumlearning.agr.AppiumBasics -->
+      </class> <!-- apiumlearning.agr.Gestures -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

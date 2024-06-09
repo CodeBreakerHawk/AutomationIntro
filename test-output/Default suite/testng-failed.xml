@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="apiumlearning.agr.AppiumBasics">
+      <class name="apiumlearning.agr.Gestures">
         <methods>
-          <include name="SetWifiName"/>
           <include name="ConfugureAppiumServer"/>
           <include name="StopServer"/>
+          <include name="LongPressGesture"/>
         </methods>
-      </class> <!-- apiumlearning.agr.AppiumBasics -->
+      </class> <!-- apiumlearning.agr.Gestures -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
